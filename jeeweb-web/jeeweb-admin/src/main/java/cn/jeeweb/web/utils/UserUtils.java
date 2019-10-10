@@ -187,6 +187,8 @@ public class UserUtils {
 	 * @return
 	 */
 	public static Menu getCurrentMenu() {
+		//ServletUtils.getRequest():获取request对象
+		//获取项目路径getServletPath
 		String url = ServletUtils.getRequest().getServletPath();
 		if (StringUtils.isEmpty(url)) {
 			return new Menu();

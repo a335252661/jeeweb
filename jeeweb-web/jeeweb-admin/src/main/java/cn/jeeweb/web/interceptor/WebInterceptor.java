@@ -31,6 +31,9 @@ public class WebInterceptor extends HandlerInterceptorAdapter {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+
+        System.out.println("preHandle: 拦截每一个请求");
+
         // 静态资源目录
         Environment env = SpringContextHolder.getBean(Environment.class);
         String staticPath = env.getProperty("jeeweb.staticPath");
