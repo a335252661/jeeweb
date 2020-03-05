@@ -15,7 +15,7 @@
     <url>http://www.jeeweb.cn</url>
     <properties>
         <!-- 文件上传 -->
-        <commons-fileupload.version>1.3.1</commons-fileupload.version>
+        <commons-fileupload.version>1.3.3</commons-fileupload.version>
     </properties>
     <dependencies>
         <!--引入标签-->
